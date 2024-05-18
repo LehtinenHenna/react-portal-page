@@ -1,8 +1,10 @@
+@import "open-props/style";
+
 .App {
   text-align: center;
 }
 
-.App-logo {
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -35,4 +37,21 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+h1 {
+  text-align: center;
+  color: #bed5ff;
+  text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+}
+
+.logo {
+  text-align: center;
+  width: 150px;
+  padding: 12.5px;
+}
+
+.logo:hover {
+  width: 175px;
+  padding: 0px;
 }
